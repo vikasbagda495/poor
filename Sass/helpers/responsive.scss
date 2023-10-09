@@ -1,0 +1,453 @@
+@media screen and (max-width:767px) {
+    .container {
+        width: 100%;
+        padding: 0 15px;
+    }
+
+
+    .top-header-background {
+        display: none;
+    }
+
+    .header-background {
+        margin: 0;
+        background: var(--brand-yellow);
+
+        .header {
+
+            .menu {
+                position: absolute;
+                position: fixed;
+                left: 0;
+                top: 0;
+                z-index: 1;
+                display: none;
+
+                >ul {
+                    align-items: start;
+                    flex-direction: column;
+                    background: var(--white);
+                    width: 280px;
+                    box-shadow: var(--blog-shadow);
+
+                    li {
+                        padding: 18px 15px;
+                        border-bottom: 1px solid var(--light-gray);
+                        width: 100%;
+
+                        &:last-child {
+                            display: none;
+                        }
+
+                        ul {
+                            height: auto;
+                            background: var(--white);
+                            z-index: 1;
+                            width: 280px;
+                        }
+                    }
+                }
+            }
+
+            .hamburger-icon {
+                display: block;
+            }
+        }
+    }
+
+
+    .slider-image {
+        img {
+            width: 100%;
+            height: 670px;
+        }
+
+        .slider-text {
+            text-align: center;
+
+            h1 {
+                font-size: 45px;
+                width: 100%;
+            }
+
+            p {
+                width: 100%;
+            }
+        }
+    }
+
+
+    .slider-box {
+        ul {
+            flex-direction: column;
+
+            li {
+                width: 100%;
+                margin: 10px 0;
+
+                &:first-child {
+                    margin-top: -150px;
+                }
+
+                p {
+                    width: 80%;
+                }
+            }
+        }
+    }
+
+
+    .about-us-section {
+        flex-direction: column;
+
+        .about-us-image {
+            width: 100%;
+        }
+
+        .about-us {
+            width: 100%;
+            padding-top: 25px;
+
+            h2 {
+                font-size: 30px;
+                width: 100%;
+            }
+
+            p {
+                width: 100%;
+            }
+
+            a {
+                margin-top: 10px;
+            }
+        }
+    }
+
+
+    .demo-logo-background {
+        width: 100%;
+        text-align: center;
+    }
+
+
+    .our-service {
+        text-align: left;
+
+        h2 {
+            font-size: 30px;
+        }
+
+        ul {
+            flex-direction: column;
+
+            li {
+                width: 100%;
+                text-align: left;
+                margin-bottom: 20px;
+            }
+        }
+    }
+
+
+    .skill-all-section {
+        flex-direction: column;
+
+        .skill-images {
+            width: 100%;
+        }
+
+        .our-skills {
+            width: 100%;
+            padding-top: 25px;
+
+            h2 {
+                width: 100%;
+                font-size: 30px;
+            }
+
+            p {
+                width: 100%;
+            }
+
+            ul {
+                li {
+                    width: 100%;
+                }
+            }
+        }
+    }
+
+
+    .our-causes-background {
+        width: 100%;
+
+        .our-causes {
+            text-align: left;
+
+            h2 {
+                font-size: 30px;
+            }
+
+            ul {
+                flex-direction: column;
+
+                li {
+                    width: 100%;
+                    margin-bottom: 20px;
+                }
+            }
+        }
+    }
+
+
+    .our-history-section {
+        flex-direction: column;
+
+        .our-history {
+            width: 100%;
+
+            h2 {
+                font-size: 30px;
+                width: 100%;
+                line-height: 35px;
+            }
+
+            p {
+                width: 100%;
+            }
+
+            .donation-project {
+                flex-direction: column;
+
+                .donation-project-left {
+                    width: 100%;
+                    padding: 0;
+                }
+
+                .donation-project-right {
+                    width: 100%;
+                    padding: 20px 0 0 0;
+                }
+            }
+
+            a {
+                margin-bottom: 20px;
+            }
+
+
+        }
+
+        .our-history-image {
+            width: 100%;
+        }
+    }
+
+
+    .our-event {
+        text-align: left;
+
+        h2 {
+            font-size: 30px;
+            width: 100%;
+        }
+
+        ul {
+            li {
+                text-align: left;
+                width: 100%;
+                flex-direction: column;
+                padding: 15px;
+                margin: 0 0 20px 0;
+
+                .event-image {
+                    width: 100%;
+                }
+
+                .event-text {
+                    width: 100%;
+                    padding: 10px 0;
+
+                    h3 {
+                        width: 100%;
+                    }
+
+                    .event-time {
+                        width: 100%;
+
+                        p {
+                            width: 100%;
+                        }
+                    }
+
+                    p {
+                        width: 100%;
+                        padding: 10px 0;
+                        margin: 0;
+                    }
+                }
+
+
+                .read-more {
+                    text-align: left;
+                }
+            }
+
+
+
+        }
+    }
+
+
+    .measure-background {
+        width: 100%;
+
+        .measure-all-section {
+            flex-direction: column;
+
+            .measure-text {
+                width: 100%;
+                text-align: center;
+
+                h2 {
+                    font-size: 30px;
+                    width: 100%;
+                    line-height: 40px;
+                }
+            }
+
+            .measure-video {
+                width: 100%;
+                margin-top: 20px;
+            }
+        }
+    }
+
+
+    .our-client-background {
+        width: 100%;
+
+        .client-all-section {
+            flex-direction: column;
+
+            .our-client {
+                width: 100%;
+
+                h2 {
+                    font-size: 30px;
+                    line-height: 40px;
+                    width: 100%;
+                }
+            }
+
+            .client-card {
+                width: 100%;
+
+                ul {
+                    li {
+                        margin: 0;
+                        margin-top: 20px;
+                    }
+                }
+            }
+        }
+    }
+
+
+    .change-tomorrow-section {
+        flex-direction: column;
+
+        .change-tomorrow-image {
+            width: 100%;
+        }
+
+        .change-tomorrow {
+            width: 100%;
+            padding-top: 25px;
+
+            h2 {
+                font-size: 30px;
+                line-height: 40px;
+                width: 100%;
+            }
+
+            p {
+                width: 100%;
+            }
+
+            ul {
+                li {
+                    width: 100%;
+                }
+            }
+        }
+    }
+
+
+    .our-blog {
+        text-align: left;
+
+        h2 {
+            font-size: 30px;
+            width: 100%;
+        }
+
+        ul {
+            flex-direction: column;
+
+            li {
+                width: 100%;
+                margin-bottom: 20px;
+            }
+        }
+    }
+
+
+    .footer-background {
+        width: 100%;
+
+        .footer-section {
+            flex-direction: column;
+
+            .footer-logo {
+                width: 100%;
+                padding-bottom: 70px;
+            }
+
+            .useful-links {
+                width: 100%;
+                padding: 0 0 70px 0;
+            }
+
+            .campaigns {
+                width: 100%;
+                padding-bottom: 70px;
+            }
+
+            .our-gallery {
+                width: 100%;
+            }
+        }
+    }
+
+
+    .footer-end-background {
+        width: 100%;
+        text-align: center;
+
+        .footer-end {
+            flex-direction: column;
+
+            .footer-end-left {
+                padding-bottom: 20px;
+            }
+        }
+    }
+
+
+
+
+    .modal {
+        display: none;
+    }
+
+}

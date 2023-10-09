@@ -1,0 +1,155 @@
+.top-header-background {
+    background: var(--brand-yellow);
+    padding: 8px 0;
+    position: fixed;
+    width: 100%;
+    z-index: 2;
+
+    .top-header {
+        display: flex;
+        justify-content: space-between;
+
+
+        .top-header-left {
+            a {
+                font-size: 16px;
+                color: var(--white);
+                padding-right: 25px;
+
+                img {
+                    width: 18px;
+                    vertical-align: middle;
+                }
+            }
+        }
+
+        .top-header-right {
+            a {
+                padding-right: 5px;
+
+                img {
+                    width: 18px;
+                }
+            }
+        }
+    }
+}
+
+
+.header-background {
+    background: var(--white);
+    padding: 18px 0;
+    position: fixed;
+    width: 100%;
+    margin-top: 37px;
+    z-index: 2;
+
+    .header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        .logo {
+            a {
+                img {
+                    width: 144px;
+                }
+
+                .responsive-logo {
+                    display: none;
+                }
+            }
+        }
+
+        .hamburger-icon {
+            display: none;
+
+            a {
+                img {
+                    width: 30px;
+                }
+            }
+        }
+
+        .menu {
+            >ul {
+                display: flex;
+
+                >li {
+                    padding: 0 22px;
+                    position: relative;
+
+                    &:last-child {
+                        padding: 0;
+
+                        >a {
+                            background: var(--brand-yellow);
+                            color: var(--white);
+                            padding: 10px 13px;
+                            border-radius: 5px;
+                            transition: 0.5s all ease;
+
+                            &:hover {
+                                background: var(--menu-hover);
+                                color: var(--white);
+                            }
+
+                        }
+                    }
+
+                    >a {
+                        color: var(--black);
+                        font-size: 16px;
+                        font-weight: 500;
+                        transition: 0.5s all ease;
+                        padding: 35px 0;
+
+                        &:hover {
+                            color: var(--brand-yellow);
+                        }
+
+                        img {
+                            width: 12px;
+                            vertical-align: middle;
+                        }
+                    }
+
+                    &:hover ul {
+                        visibility: visible;
+                        opacity: 1;
+                        transform: rotateX(0);
+                    }
+
+                    ul {
+                        background: var(--white);
+                        position: absolute;
+                        width: 250px;
+                        left: 0;
+                        top: 51px;
+                        visibility: hidden;
+                        opacity: 0;
+                        transform: translateY(12%);
+                        transition: transform .4s, opacity .1s;
+
+                        li {
+                            padding: 15px 20px;
+
+                            a {
+                                color: var(--black);
+                                font-size: 16px;
+                                font-weight: 500;
+                                padding: 5px 0;
+                                transition: 0.5s all ease;
+
+                                &:hover {
+                                    color: var(--brand-yellow);
+                                }
+                            }
+                        }
+
+                    }
+                }
+            }
+        }
+    }
+}
